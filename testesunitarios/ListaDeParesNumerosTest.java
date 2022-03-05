@@ -1,4 +1,5 @@
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assume.assumeNotNull;
 
 import org.junit.jupiter.api.Test;
 
@@ -14,5 +15,6 @@ public class ListaDeParesNumerosTest {
 	    System.out.println("Resultado: "+ldpn.ResultadoDoCalculoDePares());
 	    
 	    assertEquals(2,ldpn.getX());
+	    assumeNotNull(ldpn.ResultadoQtdDosPares());
 	}
 }

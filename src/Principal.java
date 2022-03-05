@@ -22,6 +22,7 @@ public class Principal {
 				
 				
 	    imprime("Resultado: "+ldpn.ResultadoDoCalculoDePares());
+	    imprime("Quantidade: "+ldpn.ResultadoQtdDosPares());
 	    
 	    imprime("\nQ3)");
 	    

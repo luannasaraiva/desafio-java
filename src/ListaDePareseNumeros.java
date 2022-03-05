@@ -46,4 +46,8 @@ public class ListaDePareseNumeros {
 	public String ResultadoDoCalculoDePares() {
 		return lp.toString();
 	}
+	
+	public int ResultadoQtdDosPares() {
+		return lp.size();
+	}
 }

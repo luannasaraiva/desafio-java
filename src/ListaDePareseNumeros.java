@@ -1,6 +1,11 @@
 import java.util.List;
 import java.util.Vector;
 
+/*
+ * Adiciona uma lista de numeros para fazer pares.
+ * E também gera pares
+ */
+
 public class ListaDePareseNumeros {
 	protected List<Pares> lp;
 	protected List<Integer> lnum;

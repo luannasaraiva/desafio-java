@@ -1,7 +1,9 @@
 import java.util.List;
 import java.util.Random;
 import java.util.Vector;
-
+/*
+ * Modela uma entidade de Mediana.
+ */
 public class Mediana {
 	
 	//Gera um numero aleatório de 0 a 100.

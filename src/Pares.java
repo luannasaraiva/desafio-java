@@ -1,4 +1,6 @@
-
+/*
+ * Modela um par.
+ */
 public class Pares {
 	
 

@@ -32,6 +32,9 @@ public class Mensagem {
 	public int tamMsg() {
 		return mensagem.length();
 	}
+	/*
+	 * Calcula Raiz Quadrada.
+	 */
 	
 	public int raizQuadrada() {
 		//arrendodar para cima.
@@ -40,10 +43,16 @@ public class Mensagem {
 		
 	}
 	
+	/*
+	 * Codifica Mensagem, ja pré-modificada para uma matriz.
+	 */
+	
 	public void codificaMsg() {
 		int tam = raizQuadrada();
 		msgCod = new char [tam][tam];				
 		int count = 0;		
+		
+		
 		
 		for(int i = 0; i < raizQuadrada(); i++) {			
 			for(int j = 0; j < raizQuadrada(); j++) {
